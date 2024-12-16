@@ -1,3 +1,6 @@
+first = int(input('Введите первое число: '))
+second = int(input('Введите второе число: '))
+
 def gcd(a, b):
     if a == 0 or b == 0: 
         return max(a, b)
@@ -7,4 +10,4 @@ def gcd(a, b):
         else:
             return gcd(a, b - a)
         
-print(gcd(15, 37))
+print(f'НОД чисел {first} и {second}: {gcd(first, second)}')
