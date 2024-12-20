@@ -8,4 +8,4 @@ def pascal_triangle(n):
 
 first = int(input('Введите сколько строчек треугольника Паскаля вывести:'))
 
-print(pascal_triangle(2))
+print(pascal_triangle(first))

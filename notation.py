@@ -8,4 +8,4 @@ def convert_to_base(number, dev):
 first = int(input('Введите число: '))
 second = int(input('Введите в какую систему его перевести: '))
 
-print(convert_to_base(255, 16))
+print(convert_to_base(first, second))
